@@ -1,0 +1,3 @@
+/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles/SDL3CoreProject.dir
+/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles/edit_cache.dir
+/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles/rebuild_cache.dir
