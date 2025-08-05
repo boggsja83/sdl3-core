@@ -1,7 +1,7 @@
 CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: \
- /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp \
+ /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp \
  /usr/include/stdc-predef.h \
- /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.h \
+ /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.h \
  /usr/local/include/SDL3/SDL.h /usr/local/include/SDL3/SDL_stdinc.h \
  /usr/local/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -121,7 +121,7 @@ CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/sl1m/programming/source/my_sdl3_wrapper/Types.h \
+ /home/sl1m/programming/source/sdl3-core/Types.h \
  /usr/include/c++/13/cstdint /usr/include/c++/13/sstream \
  /usr/include/c++/13/istream /usr/include/c++/13/ios \
  /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
@@ -206,5 +206,5 @@ CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/sl1m/programming/source/my_sdl3_wrapper/Config.h \
+ /home/sl1m/programming/source/sdl3-core/Config.h \
  /usr/include/c++/13/iostream

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sl1m/programming/source/my_sdl3_wrapper
+# Install script for directory: /home/sl1m/programming/source/sdl3-core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sl1m/programming/source/my_sdl3_wrapper/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sl1m/programming/source/sdl3-core/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

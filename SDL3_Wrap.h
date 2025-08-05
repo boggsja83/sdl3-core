@@ -10,6 +10,12 @@
 #include "Types.h"
 #include "Config.h"
 
+static Vertex triangle_verts[]{
+    {0.0f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f},
+    {-0.5f, -0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 1.0f},
+    {0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f}
+};
+
 class SDL3_Wrap{
     public:
 
@@ -19,12 +25,16 @@ class SDL3_Wrap{
 	    vertex_buf_lst.clear();
 	    tx_buf_lst.clear();
 	    gpu_pl_lst.clear();
+	    vert_shdr_lst.clear();
+	    frag_shdr_lst.clear();
 
 	    win_lst.reserve(1);
 	    gpu_dev_lst.reserve(1);
 	    vertex_buf_lst.reserve(5);
 	    tx_buf_lst.reserve(5);
 	    gpu_pl_lst.reserve(5);
+	    vert_shdr_lst.reserve(5);
+	    frag_shdr_lst.reserve(5);
 
 	    cfg_ptr = nullptr;
 	}
@@ -51,8 +61,9 @@ class SDL3_Wrap{
 	rt acquire_gpu_command_buffer(SDL_GPUDevice *_device, SDL_GPUCommandBuffer **_cmd_buf);
 	rt wait_acquire_swapchain_texture(SDL_GPUCommandBuffer *_cmd_buf, SDL_Window *_win, SDL_GPUTexture **_sc_text, ui32 *_width, ui32 *_height);
     public:
-	rt create_vertex_buffer(SDL_GPUDevice* _device, SDL_GPUBufferCreateInfo* _buf_nfo);
-	rt create_transfer_buffer(SDL_GPUDevice* _device, SDL_GPUTransferBufferCreateInfo* _buf_nfo);
+	rt create_vertex_buffer(SDL_GPUDevice *_device, SDL_GPUBufferCreateInfo *_nfo);
+	rt create_transfer_buffer(SDL_GPUDevice *_device, SDL_GPUTransferBufferCreateInfo *_nfo);
+	rt create_gpu_shader(SDL_GPUDevice *_device, SDL_GPUShaderCreateInfo *_nfo);
     public:
 	// rt do_gpu_render_pass(SDL_GPUCommandBuffer *_cmd_buf, const SDL_GPUColorTargetInfo *_col_tgt_nfo, ui32 _num_col_tgt, const SDL_GPUDepthStencilTargetInfo *_dep_stencil_tgt_nfo);
 	rt do_copy_pass();

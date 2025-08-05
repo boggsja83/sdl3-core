@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sl1m/programming/source/my_sdl3_wrapper
+CXX_INCLUDES = -I/home/sl1m/programming/source/sdl3-core
 
 CXX_FLAGS = -g -std=gnu++17
 

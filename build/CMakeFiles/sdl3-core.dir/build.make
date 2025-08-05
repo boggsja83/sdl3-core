@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sl1m/programming/source/my_sdl3_wrapper
+CMAKE_SOURCE_DIR = /home/sl1m/programming/source/sdl3-core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sl1m/programming/source/my_sdl3_wrapper/build
+CMAKE_BINARY_DIR = /home/sl1m/programming/source/sdl3-core/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sdl3-core.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/sdl3-core.dir/progress.make
 include CMakeFiles/sdl3-core.dir/flags.make
 
 CMakeFiles/sdl3-core.dir/main.cpp.o: CMakeFiles/sdl3-core.dir/flags.make
-CMakeFiles/sdl3-core.dir/main.cpp.o: /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp
+CMakeFiles/sdl3-core.dir/main.cpp.o: /home/sl1m/programming/source/sdl3-core/main.cpp
 CMakeFiles/sdl3-core.dir/main.cpp.o: CMakeFiles/sdl3-core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sdl3-core.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/main.cpp.o -MF CMakeFiles/sdl3-core.dir/main.cpp.o.d -o CMakeFiles/sdl3-core.dir/main.cpp.o -c /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/sdl3-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sdl3-core.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/main.cpp.o -MF CMakeFiles/sdl3-core.dir/main.cpp.o.d -o CMakeFiles/sdl3-core.dir/main.cpp.o -c /home/sl1m/programming/source/sdl3-core/main.cpp
 
 CMakeFiles/sdl3-core.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sdl3-core.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp > CMakeFiles/sdl3-core.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/sdl3-core/main.cpp > CMakeFiles/sdl3-core.dir/main.cpp.i
 
 CMakeFiles/sdl3-core.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sdl3-core.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp -o CMakeFiles/sdl3-core.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/sdl3-core/main.cpp -o CMakeFiles/sdl3-core.dir/main.cpp.s
 
 CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: CMakeFiles/sdl3-core.dir/flags.make
-CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp
+CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp
 CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o: CMakeFiles/sdl3-core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o -MF CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o.d -o CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o -c /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/sdl3-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o -MF CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o.d -o CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o -c /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp
 
 CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp > CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp > CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.i
 
 CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp -o CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp -o CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.s
 
 CMakeFiles/sdl3-core.dir/Core.cpp.o: CMakeFiles/sdl3-core.dir/flags.make
-CMakeFiles/sdl3-core.dir/Core.cpp.o: /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp
+CMakeFiles/sdl3-core.dir/Core.cpp.o: /home/sl1m/programming/source/sdl3-core/Core.cpp
 CMakeFiles/sdl3-core.dir/Core.cpp.o: CMakeFiles/sdl3-core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sdl3-core.dir/Core.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/Core.cpp.o -MF CMakeFiles/sdl3-core.dir/Core.cpp.o.d -o CMakeFiles/sdl3-core.dir/Core.cpp.o -c /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sl1m/programming/source/sdl3-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sdl3-core.dir/Core.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sdl3-core.dir/Core.cpp.o -MF CMakeFiles/sdl3-core.dir/Core.cpp.o.d -o CMakeFiles/sdl3-core.dir/Core.cpp.o -c /home/sl1m/programming/source/sdl3-core/Core.cpp
 
 CMakeFiles/sdl3-core.dir/Core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sdl3-core.dir/Core.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp > CMakeFiles/sdl3-core.dir/Core.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sl1m/programming/source/sdl3-core/Core.cpp > CMakeFiles/sdl3-core.dir/Core.cpp.i
 
 CMakeFiles/sdl3-core.dir/Core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sdl3-core.dir/Core.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp -o CMakeFiles/sdl3-core.dir/Core.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sl1m/programming/source/sdl3-core/Core.cpp -o CMakeFiles/sdl3-core.dir/Core.cpp.s
 
 # Object files for target sdl3-core
 sdl3__core_OBJECTS = \
@@ -126,7 +126,7 @@ sdl3-core: CMakeFiles/sdl3-core.dir/Core.cpp.o
 sdl3-core: CMakeFiles/sdl3-core.dir/build.make
 sdl3-core: /usr/local/lib/libSDL3.so.0.3.0
 sdl3-core: CMakeFiles/sdl3-core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sdl3-core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sl1m/programming/source/sdl3-core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sdl3-core"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sdl3-core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/sdl3-core.dir/clean:
 .PHONY : CMakeFiles/sdl3-core.dir/clean
 
 CMakeFiles/sdl3-core.dir/depend:
-	cd /home/sl1m/programming/source/my_sdl3_wrapper/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sl1m/programming/source/my_sdl3_wrapper /home/sl1m/programming/source/my_sdl3_wrapper /home/sl1m/programming/source/my_sdl3_wrapper/build /home/sl1m/programming/source/my_sdl3_wrapper/build /home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles/sdl3-core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/sl1m/programming/source/sdl3-core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sl1m/programming/source/sdl3-core /home/sl1m/programming/source/sdl3-core /home/sl1m/programming/source/sdl3-core/build /home/sl1m/programming/source/sdl3-core/build /home/sl1m/programming/source/sdl3-core/build/CMakeFiles/sdl3-core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sdl3-core.dir/depend
 

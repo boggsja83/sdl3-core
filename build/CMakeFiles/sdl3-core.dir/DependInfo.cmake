@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp" "CMakeFiles/sdl3-core.dir/Core.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/Core.cpp.o.d"
-  "/home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.cpp" "CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o.d"
-  "/home/sl1m/programming/source/my_sdl3_wrapper/main.cpp" "CMakeFiles/sdl3-core.dir/main.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/main.cpp.o.d"
+  "/home/sl1m/programming/source/sdl3-core/Core.cpp" "CMakeFiles/sdl3-core.dir/Core.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/Core.cpp.o.d"
+  "/home/sl1m/programming/source/sdl3-core/SDL3_Wrap.cpp" "CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o.d"
+  "/home/sl1m/programming/source/sdl3-core/main.cpp" "CMakeFiles/sdl3-core.dir/main.cpp.o" "gcc" "CMakeFiles/sdl3-core.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

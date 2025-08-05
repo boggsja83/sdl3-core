@@ -1,8 +1,8 @@
 CMakeFiles/sdl3-core.dir/Core.cpp.o: \
- /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp \
+ /home/sl1m/programming/source/sdl3-core/Core.cpp \
  /usr/include/stdc-predef.h \
- /home/sl1m/programming/source/my_sdl3_wrapper/Core.h \
- /home/sl1m/programming/source/my_sdl3_wrapper/Types.h \
+ /home/sl1m/programming/source/sdl3-core/Core.h \
+ /home/sl1m/programming/source/sdl3-core/Types.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -157,7 +157,7 @@ CMakeFiles/sdl3-core.dir/Core.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/sl1m/programming/source/my_sdl3_wrapper/Config.h \
+ /home/sl1m/programming/source/sdl3-core/Config.h \
  /usr/local/include/SDL3/SDL.h /usr/local/include/SDL3/SDL_stdinc.h \
  /usr/local/include/SDL3/SDL_platform_defines.h /usr/include/string.h \
  /usr/include/strings.h /usr/local/include/SDL3/SDL_begin_code.h \
@@ -201,7 +201,7 @@ CMakeFiles/sdl3-core.dir/Core.cpp.o: \
  /usr/local/include/SDL3/SDL_timer.h /usr/local/include/SDL3/SDL_tray.h \
  /usr/local/include/SDL3/SDL_version.h \
  /usr/local/include/SDL3/SDL_oldnames.h /usr/include/c++/13/iostream \
- /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.h \
+ /home/sl1m/programming/source/sdl3-core/SDL3_Wrap.h \
  /usr/local/include/SDL3/SDL_main.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \

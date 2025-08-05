@@ -8,12 +8,6 @@
 
 static Core core;
 
-static Vertex vertices[]{
-    {0.0f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f},
-    {-0.5f, -0.5f, 0.0f, 1.0f, 1.0f, 0.0f, 1.0f},
-    {0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f}
-};
-
 SDL_AppResult SDL_AppInit(void **_appstate, i32 _argc, char **_argv){
     rt r = core.sdlw.init(SDL_INIT_VIDEO, &core.cfg); 
     if(r>=0) r = core.sdlw.create_window("sdl3-core",800,600,SDL_WINDOW_RESIZABLE|SDL_WINDOW_HIDDEN,true);
@@ -22,10 +16,13 @@ SDL_AppResult SDL_AppInit(void **_appstate, i32 _argc, char **_argv){
 
     if(r>=0) SDL_ShowWindow(core.cfg.win);
 
+    // if(r>=0) core.sdlw.do_copy_pass();
+
     if(r>=0) return SDL_APP_CONTINUE;
     else{
-	core.cfg.debug_ss.str("");
-	core.cfg.debug_ss << r;
+	core.cfg.debug_rt = r;
+	// core.cfg.debug_ss.str("");
+	// core.cfg.debug_ss << r;
 	return SDL_APP_FAILURE;
     }
 }
@@ -35,8 +32,9 @@ SDL_AppResult SDL_AppIterate(void *_appstate){
     r = core.render();
     if(r>=0) return SDL_APP_CONTINUE;
     else{
-	core.cfg.debug_ss.str("");
-	core.cfg.debug_ss << r;
+	core.cfg.debug_rt = r;
+	// core.cfg.debug_ss.str("");
+	// core.cfg.debug_ss << r;
 	return SDL_APP_FAILURE;
     }
 }
@@ -67,7 +65,7 @@ SDL_AppResult SDL_AppEvent(void *_appstate, SDL_Event *_event){
 void SDL_AppQuit(void *_appstate, SDL_AppResult _result){
     core.sdlw.destroy();
     dbg(core.cfg.debug_ss,CORE_ET);
-
+    dbg(core.cfg.debug_rt,CORE_ET);
     // core.cfg.debug_ss.str("");
     // core.cfg.debug_ss << "swap_w: " << core.cfg.swap_w << " | swap_h: " << core.cfg.swap_h;
     // dbg(core.cfg.debug_ss,CORE_ET);

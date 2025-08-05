@@ -57,6 +57,22 @@ static void dbg(const char* _message, Error_Enum _et=NONE_ET){
     }
 }
 
+static void dbg(rt _code, Error_Enum _et=NONE_ET){
+    switch(_et){
+	case CORE_ET:
+	    std::cerr << "CORE Debug: " << _code << '\n';
+	    break;
+	case SDL_ET:
+	    std::cerr << _code << '\n';
+	    std::cerr << "SDL Error: " << SDL_GetError() << '\n';
+	    break;
+	case NONE_ET:
+	default:
+	    std::cerr << _code << '\n';
+	    break;
+    }
+}
+
 typedef struct Config
 {
 
@@ -69,7 +85,7 @@ typedef struct Config
     ss		    debug_ss;
     str		    debug_str	= "";
     const char*	    debug_cstr	= "";
-
+    rt		    debug_rt	= OKAY;
 } Config;
 
 #endif
