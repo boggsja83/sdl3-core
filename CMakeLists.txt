@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(SDL3CoreProject LANGUAGES CXX)
+project(sdl3-core LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

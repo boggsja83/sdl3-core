@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SDL3CoreProject
+# Target rules for targets named sdl3-core
 
 # Build rule for target.
-SDL3CoreProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3CoreProject
-.PHONY : SDL3CoreProject
+sdl3-core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl3-core
+.PHONY : sdl3-core
 
 # fast build rule for target.
-SDL3CoreProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/build
-.PHONY : SDL3CoreProject/fast
+sdl3-core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/build
+.PHONY : sdl3-core/fast
 
 Core.o: Core.cpp.o
 .PHONY : Core.o
 
 # target to build an object file
 Core.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/Core.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/Core.cpp.o
 .PHONY : Core.cpp.o
 
 Core.i: Core.cpp.i
@@ -142,7 +142,7 @@ Core.i: Core.cpp.i
 
 # target to preprocess a source file
 Core.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/Core.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/Core.cpp.i
 .PHONY : Core.cpp.i
 
 Core.s: Core.cpp.s
@@ -150,7 +150,7 @@ Core.s: Core.cpp.s
 
 # target to generate assembly for a file
 Core.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/Core.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/Core.cpp.s
 .PHONY : Core.cpp.s
 
 SDL3_Wrap.o: SDL3_Wrap.cpp.o
@@ -158,7 +158,7 @@ SDL3_Wrap.o: SDL3_Wrap.cpp.o
 
 # target to build an object file
 SDL3_Wrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/SDL3_Wrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o
 .PHONY : SDL3_Wrap.cpp.o
 
 SDL3_Wrap.i: SDL3_Wrap.cpp.i
@@ -166,7 +166,7 @@ SDL3_Wrap.i: SDL3_Wrap.cpp.i
 
 # target to preprocess a source file
 SDL3_Wrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/SDL3_Wrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.i
 .PHONY : SDL3_Wrap.cpp.i
 
 SDL3_Wrap.s: SDL3_Wrap.cpp.s
@@ -174,7 +174,7 @@ SDL3_Wrap.s: SDL3_Wrap.cpp.s
 
 # target to generate assembly for a file
 SDL3_Wrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/SDL3_Wrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.s
 .PHONY : SDL3_Wrap.cpp.s
 
 main.o: main.cpp.o
@@ -182,7 +182,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -190,7 +190,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +198,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SDL3CoreProject"
+	@echo "... sdl3-core"
 	@echo "... Core.o"
 	@echo "... Core.i"
 	@echo "... Core.s"

@@ -1,7 +1,6 @@
-CMakeFiles/SDL3CoreProject.dir/main.cpp.o: \
+CMakeFiles/sdl3-core.dir/main.cpp.o: \
  /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp \
  /usr/include/stdc-predef.h \
- /home/sl1m/programming/source/my_sdl3_wrapper/Core.h \
  /home/sl1m/programming/source/my_sdl3_wrapper/Types.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -157,39 +156,42 @@ CMakeFiles/SDL3CoreProject.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/sl1m/programming/source/my_sdl3_wrapper/Config.h \
- /usr/local/include/SDL3/SDL.h /usr/local/include/SDL3/SDL_stdinc.h \
+ /usr/local/include/SDL3/SDL_events.h \
+ /usr/local/include/SDL3/SDL_stdinc.h \
  /usr/local/include/SDL3/SDL_platform_defines.h /usr/include/string.h \
  /usr/include/strings.h /usr/local/include/SDL3/SDL_begin_code.h \
  /usr/local/include/SDL3/SDL_close_code.h \
- /usr/local/include/SDL3/SDL_assert.h \
- /usr/local/include/SDL3/SDL_asyncio.h \
- /usr/local/include/SDL3/SDL_atomic.h /usr/local/include/SDL3/SDL_audio.h \
- /usr/local/include/SDL3/SDL_endian.h /usr/local/include/SDL3/SDL_error.h \
- /usr/local/include/SDL3/SDL_mutex.h /usr/local/include/SDL3/SDL_thread.h \
+ /usr/local/include/SDL3/SDL_audio.h /usr/local/include/SDL3/SDL_endian.h \
+ /usr/local/include/SDL3/SDL_error.h /usr/local/include/SDL3/SDL_mutex.h \
+ /usr/local/include/SDL3/SDL_atomic.h \
+ /usr/local/include/SDL3/SDL_thread.h \
  /usr/local/include/SDL3/SDL_properties.h \
  /usr/local/include/SDL3/SDL_iostream.h \
- /usr/local/include/SDL3/SDL_bits.h \
- /usr/local/include/SDL3/SDL_blendmode.h \
  /usr/local/include/SDL3/SDL_camera.h \
  /usr/local/include/SDL3/SDL_pixels.h \
- /usr/local/include/SDL3/SDL_surface.h /usr/local/include/SDL3/SDL_rect.h \
- /usr/local/include/SDL3/SDL_clipboard.h \
- /usr/local/include/SDL3/SDL_cpuinfo.h \
- /usr/local/include/SDL3/SDL_dialog.h /usr/local/include/SDL3/SDL_video.h \
- /usr/local/include/SDL3/SDL_events.h \
- /usr/local/include/SDL3/SDL_gamepad.h /usr/local/include/SDL3/SDL_guid.h \
+ /usr/local/include/SDL3/SDL_surface.h \
+ /usr/local/include/SDL3/SDL_blendmode.h \
+ /usr/local/include/SDL3/SDL_rect.h /usr/local/include/SDL3/SDL_gamepad.h \
+ /usr/local/include/SDL3/SDL_guid.h \
  /usr/local/include/SDL3/SDL_joystick.h \
  /usr/local/include/SDL3/SDL_power.h /usr/local/include/SDL3/SDL_sensor.h \
  /usr/local/include/SDL3/SDL_keyboard.h \
  /usr/local/include/SDL3/SDL_keycode.h \
  /usr/local/include/SDL3/SDL_scancode.h \
- /usr/local/include/SDL3/SDL_mouse.h /usr/local/include/SDL3/SDL_pen.h \
- /usr/local/include/SDL3/SDL_touch.h \
+ /usr/local/include/SDL3/SDL_video.h /usr/local/include/SDL3/SDL_mouse.h \
+ /usr/local/include/SDL3/SDL_pen.h /usr/local/include/SDL3/SDL_touch.h \
+ /usr/local/include/SDL3/SDL_init.h \
+ /home/sl1m/programming/source/my_sdl3_wrapper/Core.h \
+ /home/sl1m/programming/source/my_sdl3_wrapper/Config.h \
+ /usr/local/include/SDL3/SDL.h /usr/local/include/SDL3/SDL_assert.h \
+ /usr/local/include/SDL3/SDL_asyncio.h /usr/local/include/SDL3/SDL_bits.h \
+ /usr/local/include/SDL3/SDL_clipboard.h \
+ /usr/local/include/SDL3/SDL_cpuinfo.h \
+ /usr/local/include/SDL3/SDL_dialog.h \
  /usr/local/include/SDL3/SDL_filesystem.h \
  /usr/local/include/SDL3/SDL_gpu.h /usr/local/include/SDL3/SDL_haptic.h \
  /usr/local/include/SDL3/SDL_hidapi.h /usr/local/include/SDL3/SDL_hints.h \
- /usr/local/include/SDL3/SDL_init.h /usr/local/include/SDL3/SDL_loadso.h \
+ /usr/local/include/SDL3/SDL_loadso.h \
  /usr/local/include/SDL3/SDL_locale.h /usr/local/include/SDL3/SDL_log.h \
  /usr/local/include/SDL3/SDL_messagebox.h \
  /usr/local/include/SDL3/SDL_metal.h /usr/local/include/SDL3/SDL_misc.h \

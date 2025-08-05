@@ -63,6 +63,9 @@ typedef struct Config
     SDL_Window*	    win		= nullptr;
     SDL_GPUDevice*  gpu_dev	= nullptr;
 
+    ui32	    swap_w	= 0;
+    ui32	    swap_h	= 0;
+
     ss		    debug_ss;
     str		    debug_str	= "";
     const char*	    debug_cstr	= "";

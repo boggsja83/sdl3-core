@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/sl1m/programming/source/my_sdl3_wrapper/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SDL3CoreProject.dir/all
+all: CMakeFiles/sdl3-core.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SDL3CoreProject.dir/clean
+clean: CMakeFiles/sdl3-core.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SDL3CoreProject.dir
+# Target rules for target CMakeFiles/sdl3-core.dir
 
 # All Build rule for target.
-CMakeFiles/SDL3CoreProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=1,2,3,4 "Built target SDL3CoreProject"
-.PHONY : CMakeFiles/SDL3CoreProject.dir/all
+CMakeFiles/sdl3-core.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles --progress-num=1,2,3,4 "Built target sdl3-core"
+.PHONY : CMakeFiles/sdl3-core.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SDL3CoreProject.dir/rule: cmake_check_build_system
+CMakeFiles/sdl3-core.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SDL3CoreProject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sdl3-core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl1m/programming/source/my_sdl3_wrapper/build/CMakeFiles 0
-.PHONY : CMakeFiles/SDL3CoreProject.dir/rule
+.PHONY : CMakeFiles/sdl3-core.dir/rule
 
 # Convenience name for target.
-SDL3CoreProject: CMakeFiles/SDL3CoreProject.dir/rule
-.PHONY : SDL3CoreProject
+sdl3-core: CMakeFiles/sdl3-core.dir/rule
+.PHONY : sdl3-core
 
 # clean rule for target.
-CMakeFiles/SDL3CoreProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL3CoreProject.dir/build.make CMakeFiles/SDL3CoreProject.dir/clean
-.PHONY : CMakeFiles/SDL3CoreProject.dir/clean
+CMakeFiles/sdl3-core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl3-core.dir/build.make CMakeFiles/sdl3-core.dir/clean
+.PHONY : CMakeFiles/sdl3-core.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

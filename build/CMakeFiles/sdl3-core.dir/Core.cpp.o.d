@@ -1,5 +1,5 @@
-CMakeFiles/SDL3CoreProject.dir/main.cpp.o: \
- /home/sl1m/programming/source/my_sdl3_wrapper/main.cpp \
+CMakeFiles/sdl3-core.dir/Core.cpp.o: \
+ /home/sl1m/programming/source/my_sdl3_wrapper/Core.cpp \
  /usr/include/stdc-predef.h \
  /home/sl1m/programming/source/my_sdl3_wrapper/Core.h \
  /home/sl1m/programming/source/my_sdl3_wrapper/Types.h \
@@ -202,8 +202,7 @@ CMakeFiles/SDL3CoreProject.dir/main.cpp.o: \
  /usr/local/include/SDL3/SDL_version.h \
  /usr/local/include/SDL3/SDL_oldnames.h /usr/include/c++/13/iostream \
  /home/sl1m/programming/source/my_sdl3_wrapper/SDL3_Wrap.h \
- /usr/local/include/SDL3/SDL_main.h \
- /usr/local/include/SDL3/SDL_main_impl.h /usr/include/c++/13/vector \
+ /usr/local/include/SDL3/SDL_main.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \

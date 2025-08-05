@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/sdl3-core.dir/main.cpp.o" "CMakeFiles/sdl3-core.dir/SDL3_Wrap.cpp.o" "CMakeFiles/sdl3-core.dir/Core.cpp.o" -o sdl3-core  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL3.so.0.3.0 
